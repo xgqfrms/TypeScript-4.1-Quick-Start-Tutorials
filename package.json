@@ -1,0 +1,32 @@
+{
+  "name": "typescript-4.1-quick-start-tutorials",
+  "version": "1.0.0",
+  "description": "TypeScript 4.1 Quick Start Tutorials 🚀",
+  "main": "src/index.ts",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/TypeScript-4.1-Quick-Start-Tutorials.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "4.1",
+    "Quick",
+    "Start",
+    "Tutorials",
+    "🚀"
+  ],
+  "author": "xgqfrms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgqfrms/TypeScript-4.1-Quick-Start-Tutorials/issues"
+  },
+  "homepage": "https://github.com/xgqfrms/TypeScript-4.1-Quick-Start-Tutorials#readme"
+}
