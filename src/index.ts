@@ -8,7 +8,7 @@
  * @created 2020-12-07
  * @modified
  *
- * @description
+ * @description TypeScript 4.x
  * @augments
  * @example
  * @link
@@ -17,12 +17,28 @@
 
 const log = console.log;
 
-
-// constructor public
+// default
 class TS4x {
-  constructor(public version: string, public author: string) {
+  // ???
+  version: string;
+  author: string;
+  constructor(version: string, author: string) {
     this.version = version;
     this.author = author;
+    this.init();
+  }
+  init() {
+    log(`init`);
+  }
+}
+
+
+// constructor public
+class TS4x1 {
+  constructor(public version: string, public author: string) {
+    // auto assignment 🚀
+    // this.version = version;
+    // this.author = author;
     this.init();
   }
   init() {
@@ -80,6 +96,7 @@ export default TS4x;
 
 export {
   TS4x,
+  TS4x1,
   TS4x2,
   TS4x3,
   TS4x4,

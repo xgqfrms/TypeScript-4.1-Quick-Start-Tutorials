@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.TS4x4 = exports.TS4x3 = exports.TS4x2 = exports.TS4x = void 0;
+exports.TS4x4 = exports.TS4x3 = exports.TS4x2 = exports.TS4x1 = exports.TS4x = void 0;
 /**
  *
  * @author xgqfrms
@@ -9,18 +9,16 @@ exports.TS4x4 = exports.TS4x3 = exports.TS4x2 = exports.TS4x = void 0;
  * @created 2020-12-07
  * @modified
  *
- * @description
+ * @description TypeScript 4.x
  * @augments
  * @example
  * @link
  *
  */
 var log = console.log;
-// constructor public
+// default
 var TS4x = /** @class */ (function () {
     function TS4x(version, author) {
-        this.version = version;
-        this.author = author;
         this.version = version;
         this.author = author;
         this.init();
@@ -31,6 +29,22 @@ var TS4x = /** @class */ (function () {
     return TS4x;
 }());
 exports.TS4x = TS4x;
+// constructor public
+var TS4x1 = /** @class */ (function () {
+    function TS4x1(version, author) {
+        this.version = version;
+        this.author = author;
+        // auto assignment 🚀
+        // this.version = version;
+        // this.author = author;
+        this.init();
+    }
+    TS4x1.prototype.init = function () {
+        log("init");
+    };
+    return TS4x1;
+}());
+exports.TS4x1 = TS4x1;
 // public
 var TS4x2 = /** @class */ (function () {
     function TS4x2(version, author) {
