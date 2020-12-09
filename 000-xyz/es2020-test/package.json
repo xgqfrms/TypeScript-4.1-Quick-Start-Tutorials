@@ -11,6 +11,7 @@
     "🚀"
   ],
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "start": "npm run build && node ./build/config.js",
     "build": "tsc",
