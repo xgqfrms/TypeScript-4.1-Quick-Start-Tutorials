@@ -19,7 +19,7 @@ const log = console.log;
 
 // default
 class TS4x {
-  // ???
+  // default public
   version: string;
   author: string;
   constructor(version: string, author: string) {
@@ -36,7 +36,7 @@ class TS4x {
 // constructor public
 class TS4x1 {
   constructor(public version: string, public author: string) {
-    // auto assignment 🚀
+    // auto assignment 🚀, no needs manually assignment
     // this.version = version;
     // this.author = author;
     this.init();

@@ -12,13 +12,24 @@
   ],
   "main": "src/index.ts",
   "scripts": {
-    "start": "npm run build && node ./build/config.js",
-    "build": "tsc",
     "dev": "yarn rmrf && tsc",
+    "build": "yarn rmrf && tsc",
     "rmrf-map": "rimraf build/**/*.map",
     "rmrf": "rimraf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "dev": "./scripts/dev.sh",
+    "app": "./scripts/app.sh",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "files": [
+    "build/index.min.js",
+    ".editorconfig",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
   "directories": {
     "doc": "docs",
     "test": "test"
