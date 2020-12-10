@@ -87,5 +87,6 @@
   "cSpell.words": [
     "editorconfig",
     "rmrf"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
